@@ -3,7 +3,7 @@ const express = require("express");
 const ProtectedTextAPI = require("protectedtext-api");
 
 const app = express();
-const PORT = 8000;
+const PORT = 8080;
 
 app.listen(PORT, () => {
   console.log(`app listening at http://localhost:${PORT}`);
